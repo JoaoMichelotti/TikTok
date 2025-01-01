@@ -51,7 +51,7 @@ export default function Conteudo(props) {
                     <Pressable onPress={Curtir}>
 
                         {curtido ? (
-                            <Image source={ require("../../assets/heart-filled.png")}/>
+                            <Image source={ require("../../assets/heart-fill.png")}/>
                         ) : (
                             <Image source={ require("../../assets/heart.png")}/>
                         )    
